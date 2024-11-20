@@ -20,7 +20,7 @@ def remove1(string):
 	return var1
 
 
-string1="abcd#ef#sfew#ff"
+string1="abcd#ef#sfew####ff"
 print("The first string is:-",remove1(string1))
 string2="abcde#fh#ggh####kjk#ggiu"
 print("The secound string is:-",remove1(string2))
