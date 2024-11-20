@@ -1,5 +1,6 @@
 user=1459895
 temp=1
+add=0
 
 while user!=0:
 	digit=user%10
