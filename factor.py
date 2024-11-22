@@ -1,8 +1,17 @@
-n=int(input("enter a value"))
-for i in range(1,n+1):
+# n=int(input("enter a value"))
+n=174 
+for i in range(2,n+1):
 	if n%i==0:
 		print(i)
 
+
+"""def check_prime(num):
+	for i in range(2,num):
+		if num%i==0:
+			return False
+
+	
+	return True"""
 """n=int(input("enter a value"))
 for i in range (2,n-1):
 	if n//i==2:
