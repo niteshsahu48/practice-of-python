@@ -7,11 +7,11 @@ print(y)"""
 
 
 
-a=8
+"""a=8
 b=5
 a,b=b,a
 print(a)
-print(b)
+print(b)"""
 
 
 
