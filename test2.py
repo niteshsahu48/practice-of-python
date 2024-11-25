@@ -53,7 +53,7 @@ print(Z)
 multiple_occurance(n,Z)
 print(result)
 
-for k in (len(result.values())) :
+for k in (result.values()):
 	print(result.keys(),end="")
 	if result.values()!=1:	
 		print("*",end="")
