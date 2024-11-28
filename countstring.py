@@ -1,4 +1,4 @@
-"""def add(store):
+def add(store):
 		result=""
 		old=""
 		for i in store:
@@ -12,6 +12,6 @@
 	store=input("enter character:-")
 	
 	kill=add(store)
-	print(kill)	"""	
+	print(kill)	
 
 
