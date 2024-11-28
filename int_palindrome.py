@@ -5,10 +5,10 @@ while var1!=0:
 	digit = var1%10
 	var1//=10
 	reverse=reverse*10+digit
-	print(reverse)
-	if temp==reverse:
-		print("True")
-	else:
-		print("False")
+	
+if temp==reverse:
+	print("True")
+else:
+	print("False")
 	
 	
