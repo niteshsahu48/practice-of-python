@@ -77,7 +77,7 @@ for i in user:
 	i+i==target
 	print(i)"""
 
-var1=int(input("Enter number:-"))
+"""var1=int(input("Enter number:-"))
 reverse = 0
 var2=[]
 num=0
@@ -94,7 +94,7 @@ while var1!=0:
 		#while len(num) !=index:
 
 
-print(num)
+print(num)"""
 
 
 
@@ -104,4 +104,42 @@ for i in range (len(var2)):
 	num.append(n)
 
 print(num)"""
+
+"""def sum_of_digits(n):
+  	total =0
+  	index=0
+  	while n > 0:
+  		total += n % 10  # Add the last digit
+  		n //= 10  # Remove the last digit
+  #return total
+  	if len(str(total))!=len(str(index)):
+  		while total > 0:
+  			total += total % 10
+  			total //= 10 
+  		return index
+
+
+number =584447788
+result = sum_of_digits(number)
+print(result)"""
+"""
+def sum_until_value(arr, limit): 
+    total = 0 
+    for num in arr: 
+        if total + num > limit: 
+            break 
+        total += num 
+    return total """
+
+
+arr = [1, 2, 3, 4, 5] 
+limit = 7 
+total = [] 
+for i in range (len(arr)): 
+	for j in range (i+1,len(arr)):
+		if arr[i] + arr[j] ==limit:
+			total.append(i)
+			total.append(j)
+			print(total)
+		
 
