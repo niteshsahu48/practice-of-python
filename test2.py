@@ -81,9 +81,7 @@ for i in user:
 reverse = 0
 var2=[]
 num=0
-
-index=0
-while var1!=0:
+while var1!=0 and num<9:
 
 	digit = var1%10
 	var1//=10
@@ -105,20 +103,12 @@ for i in range (len(var2)):
 
 print(num)"""
 
-"""def sum_of_digits(n):
-  	total =0
-  	index=0
-  	while n > 0:
-  		total += n % 10  # Add the last digit
-  		n //= 10  # Remove the last digit
-  #return total
-  	if len(str(total))!=len(str(index)):
-  		while total > 0:
-  			total += total % 10
-  			total //= 10 
-  		return index
-
-
+"""def sum_of_digits(num):
+  	total=0
+  	while num>0:
+		total += n % 10  
+		n //= 10
+	return t
 number =584447788
 result = sum_of_digits(number)
 print(result)"""
@@ -132,7 +122,7 @@ def sum_until_value(arr, limit):
     return total """
 
 
-arr = [1, 2, 3, 4, 5] 
+"""arr = [1, 2, 3, 4, 5] 
 limit = 7 
 total = [] 
 for i in range (len(arr)): 
@@ -140,6 +130,44 @@ for i in range (len(arr)):
 		if arr[i] + arr[j] ==limit:
 			total.append(i)
 			total.append(j)
-			print(total)
+			print(total)"""
+
+
+"""def sum_of_digits(num):
+  	total=0
+  	fact=True
+  	while fact==True:
+  		if num>0 :
+  			total+= num%10
+  			num //= 10
+  			if total>9:
+  				total=sum_of_digits(total)		
+  		else:
+  			fact=False
+  			return total
+  			  		
+number =12365498778966574159
+result = sum_of_digits(number)
+print(result)"""
 		
+
+"""list1=["a.json","b.json","b.text","p.py"]
+list2=[]
+for i in range (len(list1)):
+	list1[i]=list1[i].split(".")[0]
+print(list1)"""
+
+
+def lenth(n):
+	index=10
+	if len(n)==index:
+		return (yes)
+	else:
+		lenth()
+
+
+
+n=8815472312
+print(lenth(n))
+
 
