@@ -157,17 +157,99 @@ for i in range (len(list1)):
 	list1[i]=list1[i].split(".")[0]
 print(list1)"""
 
+"""l1=[2,4,3]
+l2=[5,6,4]
+l3=[]
+var1=''
+var2=""
+for i in range (len(l1)):
+	var1+=var1.join(str(l1[i]))
+#print(var1)
+for j in range (len(l2)):
+	var2+=var2.join(str(l2[j]))
+		
+#print(var2)
+print(int(var1)+int(var2))"""
 
-def lenth(n):
-	index=10
-	if len(n)==index:
-		return (yes)
+"""def addTwoNumbers(l1,l2):
+    var1=''
+    var2=""
+    var=None
+    for i in range (len(l1)):
+    	var1+=var1.join(str(l1[i]))
+    for j in range (len(l2)):
+    	var2+=var2.join(str(l2[j]))
+    var=int(var1)+int(var2)
+    return var
+
+l1=[2,4,3]
+l2=[5,6,4]
+print(addTwoNumbers(l1,l2))"""
+"""s="Hello world?#"
+print(s[0:5])"""
+"""for i in range (1,10):
+	print(i)
+	i+=1
+print(i)"""
+
+"""n="nitesh"
+for i in n:
+	x=i.upper()	
+	print(x)"""
+
+
+"""def reverse(x):
+
+	new=0
+	var=abs(x)	
+	while var!=0 and var>0:
+		digit=var%10
+		var//=10
+		#digit=str(digit)
+		new=new*10+digit
+	if x>0:
+		return new
 	else:
-		lenth()
+		return (-new)
 
 
+x=-120145
+print(reverse(x))"""
 
-n=8815472312
-print(lenth(n))
+"""def reverse(x):
+	new=0
+	var=abs(x)
+	if -2**31<= x <=2**31-1 :
+		return 0
+	else:		
+		while var!=0 and var>0:
+			digit=var%10
+			var//=10
+			new=new*10+digit
+		if x>0:
+			return new
+		else:
+			return (-new)
 
 
+x=-21474836482
+
+print(reverse(x))"""
+
+
+class squre:
+	def __init__(self):
+		self.side=int(input("enter side::"))
+
+	def area(self):
+		return self.side*self.side
+
+	def perimeter(self):
+		return 4*self.side
+
+
+s1=squre()
+p1=s1.perimeter()
+a1=s1.area() 
+
+print("Area of squre with side {}={}".format(s1.side,a1))
