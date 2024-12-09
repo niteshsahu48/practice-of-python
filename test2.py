@@ -237,7 +237,7 @@ x=-21474836482
 print(reverse(x))"""
 
 
-class squre:
+"""class squre:
 	def __init__(self):
 		self.side=int(input("enter side::"))
 
@@ -246,10 +246,42 @@ class squre:
 
 	def perimeter(self):
 		return 4*self.side
-
-
 s1=squre()
 p1=s1.perimeter()
 a1=s1.area() 
+print("Area of squre with side {}={}".format(s1.side,a1))"""
 
-print("Area of squre with side {}={}".format(s1.side,a1))
+
+
+
+"""def numb(number): 	
+	#number=input("Enter number::")	
+	n=number.isnumeric()
+	if len(str(number))==10 and n is True and len(str(number[0]))!=0:
+		return number
+	else:
+		print("=======Please Enter valid Number=======")
+		print("=== The number will not starte on 0 ===")
+		print("== All Digits are numeric are compulsory ==")		
+		numb()
+num=input("enter number::")
+numb(num)"""
+
+
+strs = ["flower","flow","flight","funsf"]
+var=''
+count=0
+for i in strs:
+	#print(i)
+	#print(strs[i+1])
+	for j in i:
+		#print(j)
+		if j in i+1:
+			if j in i[0]:
+				var+=j
+			else:
+				i=+1
+	print(j[0])
+					
+
+
