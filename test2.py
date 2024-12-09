@@ -268,20 +268,23 @@ num=input("enter number::")
 numb(num)"""
 
 
-strs = ["flower","flow","flight","funsf"]
-var=''
-count=0
-for i in strs:
-	#print(i)
-	#print(strs[i+1])
-	for j in i:
-		#print(j)
-		if j in i+1:
-			if j in i[0]:
-				var+=j
-			else:
-				i=+1
-	print(j[0])
-					
+"""def numb(n): 	
+	#number=input("Enter number::")	
+	n=number.isnumeric()
+
+	if len(str(number))==10 and n is True and list(number[0])==0:
+		print( number)
+	else:
+		print("=======Please Enter valid Number=======")
+		print("=== The number will not starte on 0 ===")
+		print("== All Digits are numeric compulsory ==")		
+		numb(n)
+	break
 
 
+
+number=input("entre number::")
+numb(number)"""
+
+strs="0881547231"
+print(strs[:2:])
