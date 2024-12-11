@@ -285,6 +285,23 @@ numb(num)"""
 
 number=input("entre number::")
 numb(number)"""
+string='[{()}]'
+string=list(string)
+list1=["[","{","(","]","}",")"]
+#print(string)
+for i in string:
+	#print("string",i)
+	for j in list1:
+		#print("list1",j)
+		if j in i:
+			string.pop(0)
+if string =="":
+	True
+else:
+	print("no")
+	False						
+		
+				
+		
 
-strs="0881547231"
-print(strs[:2:])
+
