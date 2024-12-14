@@ -285,21 +285,26 @@ numb(num)"""
 
 number=input("entre number::")
 numb(number)"""
-string='[{()}]'
+#===================##valid and invalid##=========================
+string='[{()}[]]'
 string=list(string)
-list1=["[","{","(","]","}",")"]
-#print(string)
-for i in string:
-	#print("string",i)
-	for j in list1:
-		#print("list1",j)
-		if j in i:
-			string.pop(0)
-if string =="":
-	True
-else:
-	print("no")
-	False						
+open1=["[","{","("]
+close1=["]","}",")"]
+count=0
+for i in string:	
+	if i in open1:
+		count+=1
+	elif i in close1:
+		count-=1
+if count==0:
+	print("valid")
+elif count>0 and count<0:	
+	print("Invalid")
+
+#================================================================
+
+
+						
 		
 				
 		
