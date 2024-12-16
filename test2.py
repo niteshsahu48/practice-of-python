@@ -286,7 +286,7 @@ numb(num)"""
 number=input("entre number::")
 numb(number)"""
 #===================##valid and invalid##=========================
-string='[{()}[]]'
+"""string='[{()}[]]'
 string=list(string)
 open1=["[","{","("]
 close1=["]","}",")"]
@@ -299,9 +299,21 @@ for i in string:
 if count==0:
 	print("valid")
 elif count>0 and count<0:	
-	print("Invalid")
+	print("Invalid")"""
 
 #================================================================
+a=int(input("enter number:"))
+x=[]
+for i in range (1,a+1):
+	b=int(input("enter:"))
+	x.append(b)
+print(x)
+for i in x:
+	if i <=5:
+		print(i) 
+
+#==============================================
+
 
 
 						
