@@ -302,7 +302,7 @@ elif count>0 and count<0:
 	print("Invalid")"""
 
 #================================================================
-a=int(input("enter number:"))
+"""a=int(input("enter number:"))
 x=[]
 for i in range (1,a+1):
 	b=int(input("enter:"))
@@ -310,9 +310,13 @@ for i in range (1,a+1):
 print(x)
 for i in x:
 	if i <=5:
-		print(i) 
+		print(i)"""
 
 #==============================================
+string="hello world"
+for i in range string:
+	print(i)
+
 
 
 
