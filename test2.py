@@ -314,7 +314,7 @@ for i in x:
 
 #==============================================
 string="hello world"
-for i in range string:
+for i in tring:
 	print(i)
 
 
