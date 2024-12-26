@@ -28,6 +28,6 @@ third_row=("zxcvbnm")
 new=[]
 for char in words:
     print(char)
-    if char.startswith() or secound_row.startswith(char) or third_row.startswith(char):
-    	new.append(char)
+    #if first_row.startswith(char) or secound_row.startswith(char) or third_row.startswith(char):
+    	#new.append(char)
 print(new)
