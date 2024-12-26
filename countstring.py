@@ -9,9 +9,9 @@ def add(store):
 				old+=temp
 		return(old)	
 	
-	store=input("enter character:-")
+store=input("enter character:-")
 	
-	kill=add(store)
-	print(kill)	
+kill=add(store)
+print(kill)	
 
 
