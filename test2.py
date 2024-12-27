@@ -312,17 +312,101 @@ for i in x:
 	if i <=5:
 		print(i)"""
 
-#==============================================
-string="hello world"
-for i in tring:
-	print(i)
+#=======================================================
+"""a=(int(input()),int(input()),int(input()))
+if a[0]> a[1]:
+	print(a[0])
+else:
+	print(a[1])"""
+
+	# import openpyxl module
+"""import openpyxl
+
+# import BarChart class from openpyxl.chart sub_module
+from openpyxl.chart import BarChart,Reference
+
+# Call a Workbook() function of openpyxl 
+# to create a new blank Workbook object
+wb = openpyxl.Workbook()
+
+# Get workbook active sheet 
+# from the active attribute.
+sheet = wb.active
+
+# write o to 9 in 1st column of the active sheet
+for i in range(10):
+	sheet.append([i])
+
+# create data for plotting
+values = Reference(sheet, min_col = 1, min_row = 1,
+						max_col = 1, max_row = 10)
+
+# Create object of BarChart class
+chart = BarChart()
+
+# adding data to the Bar chart object
+chart.add_data(values)
+
+# set the title of the chart
+chart.title = " BAR-CHART "
+
+# set the title of the x-axis
+chart.x_axis.title = " X_AXIS "
+
+# set the title of the y-axis
+chart.y_axis.title = " Y_AXIS "
+
+# add chart to the sheet
+# the top-left corner of a chart
+# is anchored to cell E2 .
+sheet.add_chart(chart, "E2")
+
+# save the file
+wb.save("barChart.xlsx")"""
 
 
 
+class stack:
+    #docstring for stack
+    def __init__(self):
+        self.stacklist  = []
+        self.max = -1 
 
-						
-		
-				
-		
+    def show(self) : 
+        print("Stacklist : ", self.stacklist)
+
+    def push(self,x):
+        self.stacklist.append(x)
+        self.max = self.max + 1 
+
+    def pop(self) : 
+        z = self.stacklist.pop()
+        self.max = self.max-1
+        return z 
+        
+
+operator={"/":2,"*":2,"-":1,"+":1}
+post_exp=["24","4","/","78","/","9","*","8","2","/","6","*","+","9","+","2","-"]
+result= stack()
+new=[]
+for i in post_exp:
+	int(i)
+	new.append(i)
+print(new)
+
+"""for i in post_exp:
+    if i not in operator:
+    	result.push(i)
+    else:
+    	x=result.pop()
+    	y=result.pop()
+    	z=int(x)++int(y)
+    	result.push(z)
+else:
+	result.append()
+print(Temp)"""
+
+
+
 
 
