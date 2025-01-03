@@ -102,7 +102,7 @@ opretion.show()"""
 
 #correct_convert = ["3","12","+","23","8","/","2","*","-"]
 #correct_convert = ["23","23","-","3","33","/","33","/","+","12","12","*","-"]
-correct_convert=["24","4","/","78","/","9","*","8","2","/","6","*","+","9","+","2","-"]
+"""correct_convert=["24","4","/","78","/","9","*","8","2","/","6","*","+","9","+","2","-"]
 
 class stack:
     #docstring for stack
@@ -122,7 +122,7 @@ class stack:
         self.max = self.max-1
         return z 
         
-"""def validate_exp(x):
+def validate_exp(x):
     operator_index = []
     for i in range(len(x)):
         if x[i] in operator : 
@@ -189,13 +189,40 @@ if y == True :
 
 
 else : 
-    print("Invalid Exp ")"""
+    print("Invalid Exp ")
 
 operator={"/":2,"*":2,"-":1,"+":1}
 post_exp=["24","4","/","78","/","9","*","8","2","/","6","*","+","9","+","2","-"]
 
 for i in post_exp:
-    if i not in operator:
+    if i not in operator:"""
+
+
+"""def generate(self, numRows):
+    List1 = []
+
+    for i in range(1,numRows+1):
+        row = []
+        if i==1:
+            row.append(1)
+        elif i==2:
+            row.append(1)
+            row.append(1)
+        else:
+            prev_row = List1[-1]
+            row.append(1)
+            for j in range(len(prev_row)-1):
+                Sum = prev_row[j]+prev_row[j+1]
+                row.append(Sum)
+            row.append(1)
+        List1.append(row)
+    return List1"""
+
+    
+
+
+
+
         
 
 
@@ -211,3 +238,4 @@ for i in post_exp:
 
 
 
+    
