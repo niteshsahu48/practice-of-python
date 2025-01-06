@@ -366,7 +366,7 @@ wb.save("barChart.xlsx")"""
 
 
 
-class stack:
+"""class stack:
     #docstring for stack
     def __init__(self):
         self.stacklist  = []
@@ -394,7 +394,7 @@ for i in post_exp:
 	new.append(i)
 print(new)
 
-"""for i in post_exp:
+for i in post_exp:
     if i not in operator:
     	result.push(i)
     else:
