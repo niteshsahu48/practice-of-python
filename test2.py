@@ -407,5 +407,64 @@ else:
 print(Temp)"""
 
 
+"""string1="nitesh"
+string2='sahu'
+result=""
+
+for i in string1:
+	result+=i
+for j in string2:
+	result+=j
+print(result)"""
+
+from faker import Faker
+fake = Faker("EN_IN")
+name = fake.name()
+address = fake.address()
+phone_number = fake.phone_number()
+date_of_birth = fake.date_of_birth()
+print(name) 
+print(date_of_birth) 
+print(phone_number)
+print(address)
+
+
+
+"""temp = True 
+while temp : 
+	cont_choice = input("Enter Y to Continue or N to Stop::")
+	if cont_choice == "Y" or cont_choice == "y":
+		choice=print(input("Enter 1 for int \n Enter 2 for float enter 3 for string"))
+		A=int(input("enter value:"))
+		B=int(input("Enter valur::"))
+		print(A+B)
+	else :
+		print("Thanks Bye Bye")
+		exit()"""
+
+"""def power(value1,value2):
+	result=0
+	for i in range (1,value1):
+		if i*value2==value1:
+			return i
+	else:
+		return "No"
+
+value1=64
+value2=3
+print(power(value1,value2))"""
+
+
+
+
+
+
+
+	
+
+
+
+
+
 
         
